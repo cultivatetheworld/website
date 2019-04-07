@@ -7,11 +7,11 @@
             crossorigin="anonymous"
         >
         <TheHeader/>
-        <b-container id="index-hero" fluid>
+        <b-container id="index-hero" class="text-center" fluid>
             <div>
                 <h1
                     id="index-hero-text"
-                    class="display-3 font-italic"
+                    class="font-italic"
                 >Decentralizing weather stations to maximize agricultural production.</h1>
                 <div class="text-center py-4">
                     <a v-scroll-to="'#index-mission'">
