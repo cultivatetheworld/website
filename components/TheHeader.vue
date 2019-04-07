@@ -1,9 +1,8 @@
 <template>
     <b-navbar toggleable="lg" type="dark" variant="info">
         <b-navbar-brand href="#">
-            <img id="navbar-logo" src="~/assets/img/logo.png" alt="Logo">
+            <img id="navbar-logo" src="~/assets/img/logo-cropped.svg" alt="Logo">
         </b-navbar-brand>
-        <b-navbar-brand href="#" class="text-uppercase" id="navbar-header">Cultivate the World</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -27,9 +26,13 @@ export default {
 .navbar {
     background-color: #435058 !important;
     font-family: "Imprima", sans-serif !important;
+
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #navbar-logo {
-    max-height: 30px;
+    height: 10vh;
 }
 #navbar-header {
     font-family: "Imprima";
