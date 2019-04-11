@@ -15,8 +15,8 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Imprima" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Oswald" }
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Didact+Gothic" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Fjalla+One" }
     ]
   },
 

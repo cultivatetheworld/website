@@ -24,16 +24,13 @@ export default {
 <style>
 .navbar {
     background-color: #435058 !important;
-    font-family: "Imprima", sans-serif !important;
-
-    font-size: 1.5em;
+    font-family: "Didact Gothic" !important;
+    font-weight: bold;
+    font-size: 1.2em;
     padding-left: 20px;
     padding-right: 20px;
 }
 #navbar-logo {
-    height: 10vh;
-}
-#navbar-header {
-    font-family: "Imprima";
+    height: 8vh;
 }
 </style>

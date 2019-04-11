@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 html,
 body {
     font-family: "Imprima", sans-serif;

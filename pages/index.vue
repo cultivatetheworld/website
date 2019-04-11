@@ -11,7 +11,7 @@
             <div>
                 <h1
                     id="index-hero-text"
-                    class="font-italic"
+                    class="display-4"
                 >Decentralizing weather stations to maximize agricultural production.</h1>
                 <div class="text-center py-4">
                     <a v-scroll-to="'#index-mission'">
@@ -50,28 +50,48 @@ export default {
 <style>
 html,
 body {
-    font-family: "Imprima", sans-serif;
     background-color: #435058;
     color: #f1f2ee;
+    font-family: "Didact Gothic";
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fjalla One";
+    font-weight: bold;
+}
+
 #index-hero {
-    padding: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("~assets/img/index-hero.jpg");
-    height: 90vh;
+    min-height: 90vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 20px;
+    padding-bottom: 80px;
 }
 #index-hero i {
-    font-size: 5em;
-    opacity: 0.5;
+    font-size: 3em;
+    opacity: 0.8;
     padding-top: 50px;
+    animation: blink 2s linear infinite;
 }
 #index-hero-text {
     padding-top: 30vh;
     padding-left: 10vw;
     padding-right: 10vw;
+    font-family: "Fjalla One";
+    font-weight: bold;
+    line-height: 80px;
+}
+@keyframes blink {
+    50% {
+        opacity: 0.2;
+    }
 }
 </style>
