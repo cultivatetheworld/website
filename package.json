@@ -1,24 +1,26 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "description": "The official website of Cultivate the World",
-  "author": "Cultivate the World",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "aos": "^3.0.0-beta.6",
-    "bootstrap": "^4.1.3",
-    "bootstrap-vue": "^2.0.0-rc.11",
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
-    "vue-scrollto": "^2.15.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
-  }
+    "name": "website",
+    "version": "1.0.0",
+    "description": "The official website of Cultivate the World",
+    "author": "Cultivate the World",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "aos": "^3.0.0-beta.6",
+        "bootstrap": "^4.1.3",
+        "bootstrap-vue": "^2.0.0-rc.11",
+        "cross-env": "^5.2.0",
+        "nuxt": "^2.4.0",
+        "vue-scrollto": "^2.15.0"
+    },
+    "devDependencies": {
+        "node-sass": "^4.11.0",
+        "nodemon": "^1.18.9",
+        "sass-loader": "^7.1.0"
+    }
 }

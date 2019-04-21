@@ -48,22 +48,6 @@ export default {
 </script>
 
 <style>
-html,
-body {
-    background-color: #435058;
-    color: #f1f2ee;
-    font-family: "Didact Gothic";
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Fjalla One";
-    font-weight: bold;
-}
-
 #index-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("~assets/img/index-hero.jpg");
@@ -88,10 +72,5 @@ h6 {
     font-family: "Fjalla One";
     font-weight: bold;
     line-height: 80px;
-}
-@keyframes blink {
-    50% {
-        opacity: 0.2;
-    }
 }
 </style>

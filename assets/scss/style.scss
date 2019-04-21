@@ -1,0 +1,21 @@
+html,
+body {
+    background-color: #435058;
+    color: #f1f2ee;
+    font-family: "Didact Gothic";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fjalla One";
+    font-weight: bold;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.2;
+    }
+}

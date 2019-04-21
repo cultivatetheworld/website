@@ -24,13 +24,15 @@ export default {
 <style>
 .navbar {
     background-color: #435058 !important;
-    font-family: "Didact Gothic" !important;
-    font-weight: bold;
+    font-family: "Fjalla One" !important;
+    font-weight: normal;
+    text-transform: uppercase;
     font-size: 1.2em;
     padding-left: 20px;
     padding-right: 20px;
+    border-bottom: 1px solid #f1f2ee;
 }
 #navbar-logo {
-    height: 8vh;
+    height: 6vh;
 }
 </style>
