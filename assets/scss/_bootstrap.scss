@@ -1,0 +1,13 @@
+@import "colors.scss";
+
+// Typography
+$font-family-sans-serif: "Didact Gothic", Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-base: $font-family-sans-serif;
+$font-family-header: "Fjalla One", "Impact", sans-serif;
+
+// Responsive fonts
+$enable-responsive-font-sizes: true;
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-vue/src/index.scss";

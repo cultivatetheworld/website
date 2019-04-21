@@ -47,10 +47,22 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "~assets/scss/_colors.scss";
+
 #index-hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(
+            rgba(
+                darken(map-get($map: $theme-colors, $key: "success"), 40%),
+                0.5
+            ),
+            rgba(
+                darken(map-get($map: $theme-colors, $key: "success"), 50%),
+                0.5
+            )
+        ),
         url("~assets/img/index-hero.jpg");
+
     min-height: 90vh;
     background-size: cover;
     background-position: center center;
@@ -58,18 +70,18 @@ export default {
     background-attachment: fixed;
     padding: 20px;
     padding-bottom: 80px;
-}
-#index-hero i {
-    font-size: 3em;
-    opacity: 0.8;
-    padding-top: 50px;
-    animation: blink 2s linear infinite;
+
+    i {
+        font-size: 3em;
+        opacity: 0.8;
+        padding-top: 50px;
+        animation: blink 2s linear infinite;
+    }
 }
 #index-hero-text {
     padding-top: 30vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    font-family: "Fjalla One";
     font-weight: bold;
     line-height: 80px;
 }
