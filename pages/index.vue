@@ -20,14 +20,14 @@
                 </div>
             </div>
         </b-container>
-        <b-container id="index-mission" class="text-center my-4">
+        <b-container id="index-mission" class="text-center m-block">
             <h1>Mission</h1>
             <p>
                 Our mission is to collect and analyze weather data by leveraging cloud-based machine learning techniques to provide valuable
                 insights into weather patterns and reduce crop failure.
             </p>
         </b-container>
-        <b-container class="text-center my-4">
+        <b-container class="text-center m-block">
             <h1>Inspiration</h1>
             <p>
                 Food production is what drives the development of the world. In many developing countries, the crop yield isn't sufficient to satisfy the needs of an ever-growing population.
@@ -76,6 +76,7 @@ export default {
         opacity: 0.8;
         padding-top: 50px;
         animation: blink 2s linear infinite;
+        cursor: pointer;
     }
 }
 #index-hero-text {
